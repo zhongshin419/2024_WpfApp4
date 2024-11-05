@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2024_WpfApp4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="2024 WPF Painter Ver1" Height="586" Width="982">
+    <DockPanel LastChildFill="False">
+        <Menu Height="30" DockPanel.Dock="Top">
+			<MenuItem Header="檔案" FontSize="14" Height="28" VerticalAlignment="Center">
+				<MenuItem Header="開新檔案" FontSize="14" Height="28" VerticalAlignment="Center"/>
+				<MenuItem Header="開啟舊檔" FontSize="14" Height="28" VerticalAlignment="Center"/>
+				<MenuItem Header="儲存檔案" FontSize="14" Height="28" VerticalAlignment="Center"/>
+				<MenuItem Header="另存新檔" FontSize="14" Height="28" VerticalAlignment="Center"/>
+				<MenuItem Header="結束" FontSize="14" Height="28" VerticalAlignment="Center"/>
 
-    </Grid>
+			</MenuItem>
+		</Menu>
+		<ToolBarTray Height="40" DockPanel.Dock="Top">
+			<ToolBar Height="38" Width="300" Background="Ivory">
+
+			</ToolBar>
+		</ToolBarTray>
+		<Canvas DockPanel.Dock="Top" Height="500" Background="#FFF7F3DE" />
+
+	</DockPanel>
+
 </Window>

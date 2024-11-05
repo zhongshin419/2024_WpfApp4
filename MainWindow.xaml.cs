@@ -20,5 +20,10 @@ namespace _2024_WpfApp4
         {
             InitializeComponent();
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
